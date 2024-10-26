@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .player-container {
+    text-align: center;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cover img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .controls button {
+    font-size: 24px;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 0px;
+    background-color: #024CAA;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .controls button:hover {
+    background-color: #00357b;
+  }
+  
+  .track-info {
+    margin-top: 20px;
+  }
+  #track-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  #track-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
